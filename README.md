@@ -1,7 +1,7 @@
 # project name
 
 ### Stack
-'''
+```
 front end:
 react
 html/css/js
@@ -15,4 +15,4 @@ kubernetes/docker
 
 cloud:
 ?
-'''
+```
