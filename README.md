@@ -2,14 +2,13 @@
 
 ## Get Started
 run ```python manage.py runserver``` under the /backend/ directory
-run ```npm start``` under the /frontend/ directory
-visit ```http://localhost:3000/``` to see the application
+visit ```http://localhost:8000/``` to see the application
 
 ### link
 -> host it somewhere and add link here
 
 ### description
--> ... 
+-> ...
 
 ### stack
 ```
@@ -18,7 +17,7 @@ python (django)
 postgreSQL/MySQL
 
 frontend:
-react 
+react
 html/css/js
 
 devops:
