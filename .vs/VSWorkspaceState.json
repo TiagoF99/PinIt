@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
-    "\\backend\\backend",
-    "\\backend\\todo"
+    "\\app",
+    "\\app\\frontend",
+    "\\app\\frontend\\src"
   ],
-  "SelectedNode": "\\backend\\todo\\serializers.py",
+  "SelectedNode": "\\app\\frontend\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
