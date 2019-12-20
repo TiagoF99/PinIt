@@ -6,9 +6,9 @@ class Todo(models.Model):
 	"""
 	properties of the todo model
 	"""
-	title = models.CharField(max_length=120)
-	description = models.TextField()
-	completed = models.BooleanField(default=False)
+	username = models.CharField(max_length=20, unique=True)
+	password = models.CharField(max_length=20)
+	name = models.TextField()
 
 	def __str__(self):
-		return self.title
+		return self.username

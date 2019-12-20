@@ -6,25 +6,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: white;
 }
-.todo-title {
-	cursor: pointer;
+#loginform {
+  margin: 100px;
 }
-.completed-todo {
-	text-decoration: line-through;
+#loginform > div {
+  padding: 20px;
 }
-.tab-list > span {
-	padding: 5px 8px;
-	border: 1px solid #282c34;
-	border-radius: 10px;
-	margin-right: 5px;
-	cursor: pointer;
+#logintitle {
+  text-align: center;
+  font-size: 400%;
+  font-family: 'Roboto';
+  font-weight: 100;
 }
-.tab-list > span.active {
-	background-color: #282c34;
-	color: #ffffff;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

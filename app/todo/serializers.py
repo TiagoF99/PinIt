@@ -13,4 +13,4 @@ class TodoSerializer(serializers.ModelSerializer):
 
         """
         model = Todo
-        fields = ('id', 'title', 'description', 'completed')
+        fields = ('username', 'password', 'name')
