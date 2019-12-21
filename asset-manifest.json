@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/idea/static/css/main.d2a1f6b0.chunk.css",
+    "main.js": "/idea/static/js/main.a36a48cf.chunk.js",
+    "main.js.map": "/idea/static/js/main.a36a48cf.chunk.js.map",
+    "runtime-main.js": "/idea/static/js/runtime-main.ff35478e.js",
+    "runtime-main.js.map": "/idea/static/js/runtime-main.ff35478e.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/idea/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.25b5890a.chunk.js": "/idea/static/js/2.25b5890a.chunk.js",
+    "static/js/2.25b5890a.chunk.js.map": "/idea/static/js/2.25b5890a.chunk.js.map",
+    "index.html": "/idea/index.html",
+    "precache-manifest.4669509a0a8e7107cc9ec5404e7adfff.js": "/idea/precache-manifest.4669509a0a8e7107cc9ec5404e7adfff.js",
+    "service-worker.js": "/idea/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/idea/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d2a1f6b0.chunk.css.map": "/idea/static/css/main.d2a1f6b0.chunk.css.map",
+    "static/js/2.25b5890a.chunk.js.LICENSE": "/idea/static/js/2.25b5890a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff35478e.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.25b5890a.chunk.js",
+    "static/css/main.d2a1f6b0.chunk.css",
+    "static/js/main.a36a48cf.chunk.js"
+  ]
+}
