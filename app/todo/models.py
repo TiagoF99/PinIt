@@ -6,7 +6,7 @@ class Todo(models.Model):
 	"""
 	properties of the todo model
 	"""
-	username = models.CharField(max_length=20, unique=True)
+	username = models.CharField(max_length=20, primary_key=True)
 	password = models.CharField(max_length=20)
 	name = models.TextField()
 
