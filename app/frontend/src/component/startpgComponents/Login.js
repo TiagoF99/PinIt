@@ -34,30 +34,29 @@ export default class Login extends Component {
   
   render() {
     return (
-      <div className="col-6">
-        <form id="loginform" className="bg-light">
-          <div id="logintitle"> Login </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
-            <div class="col-sm-10">
-              <input id="loginUser" type="username" class="form-control"></input>
-            </div>
+      <form id="loginform" className="bg-light">
+        <div id="logintitle"> Login </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
+          <div class="col-sm-10">
+            <input id="loginUser" type="username" class="form-control"></input>
           </div>
-          <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <input id="loginPassword" type="password" class="form-control"></input>
-            </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input id="loginPassword" type="password" class="form-control"></input>
           </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <button onClick={() => this.login()} 
-              type="submit" class="btn btn-primary">Sign in</button>
-            </div>
+        </div>
+        
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button onClick={() => this.login()} 
+            type="submit" class="btn btn-primary">Sign in</button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
+      
     );
   }
 }
