@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
 
 	render() {
-		return (<main><StartPage /></main>);
+		return (<main><StartPage />hello</main>);
 	}
 }
 export default App;
