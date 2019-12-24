@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Register from "./startpgComponents/Register.js";
 import Login from "./startpgComponents/Login.js";
+import { Link } from 'react-router-dom';
 
 export default class StartPage extends Component {
   /*
@@ -9,21 +10,16 @@ export default class StartPage extends Component {
   a component on this page and renders like the login
   component.
   */
+
+  constructor(props) {
+      super(props);
+    }
   
   render() {
     return (
       <main className="content">
         <div id="logintitle"> Pinit! </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <Login />
-            </div>
-            <div className="col-6">
-              <Register />
-            </div>  
-          </div>
-        </div>
+        <Login />
       </main>
     );
   }

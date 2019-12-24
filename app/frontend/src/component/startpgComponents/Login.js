@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
+
+  constructor(props) {
+      super(props);
+    }
 
   getUser = username => {
     axios
@@ -55,6 +60,8 @@ export default class Login extends Component {
             type="submit" class="btn btn-primary">Sign in</button>
           </div>
         </div>
+
+        <Link to="/Register">Dont have an account? Click here to register!</Link>
       </form>
       
     );

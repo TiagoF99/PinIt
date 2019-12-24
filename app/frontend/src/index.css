@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 #loginform {
-  margin: 0px;
+  margin: 50px;
 }
 #loginform > div {
   padding: 20px;

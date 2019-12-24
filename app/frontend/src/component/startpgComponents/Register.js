@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 export default class Register extends Component {
+
+  constructor(props) {
+      super(props);
+    }
   
   makeItem = (username, password, name) => {
       return {username: username, password:password, name: name};
@@ -66,6 +71,8 @@ export default class Register extends Component {
               type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div>
+
+          <Link to="/">Already have an account? Click here to return to the start page!</Link>
         </form>
     );
   }
