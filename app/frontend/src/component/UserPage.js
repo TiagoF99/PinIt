@@ -7,14 +7,15 @@ export default class UserPage extends Component {
   We can define all the main components later
   */
 
-  constructor(props) {
+  constructor(props, username) {
       super(props);
+      this.curr_username = username;
     }
   
   render() {
     return (
       <main className="content">
-        
+        <div>Hello {this.curr_username} !</div>
       </main>
     );
   }

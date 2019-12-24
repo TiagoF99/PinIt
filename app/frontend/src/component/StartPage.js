@@ -11,10 +11,6 @@ export default class StartPage extends Component {
   component.
   */
 
-  constructor(props) {
-      super(props);
-    }
-  
   render() {
     return (
       <main className="content">

@@ -4,13 +4,9 @@ import UserPage from "./component/StartPage.js";
 import { Link } from 'react-router-dom';
 
 class App extends Component {
-  
+
 	render() {
-		return (
-	    	<main>
-	        	<StartPage />
-	      	</main>
-	    );
+		return (<main><StartPage /></main>);
 	}
 }
 export default App;

@@ -9,7 +9,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 // added from router changes
 import { Router, Route } from 'react-router';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 
 import StartPage from './component/StartPage.js';
@@ -25,6 +25,7 @@ ReactDOM.render(
 		<Switch>
 			<Route exact path="/" component={App} />
 			<Route exact path="/Register" component={Register} />
+			<Route exact path="/UserPage" component={UserPage} />
 		</Switch>
 	</Router>
 	, 
