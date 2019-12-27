@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
+import { createBrowserHistory} from "history";
 
 export default class Login extends Component {
+  /*
+  the login form component for the user
+  -> figure out proper authetification
+  */
+
+  constructor(props) {
+      super(props);
+    }
 
   getUser = username => {
     axios
@@ -24,7 +33,7 @@ export default class Login extends Component {
     const user_data = this.getUser(username);
     if (user_data) {
         if (user_data.username === username && user_data.password === password) {
-          window.open("/UserPage$" + username);
+          createBrowserHistory().push("/UserPage/" + username);
       } else {
         alert("Username or Password do not match");
       }
