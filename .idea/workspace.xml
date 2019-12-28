@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9174799d-e761-4939-bf26-eba2fae77a54" name="Default" comment="">
+    <list default="true" id="c31939eb-6a33-423e-8375-d32656a95ee0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/components/Modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/todo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/todo/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/todo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/todo/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/todo/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/todo/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/idea/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/component/startpgComponents/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/component/startpgComponents/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/component/startpgComponents/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/component/startpgComponents/Register.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,25 +22,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/backend/todo/serializers.py" />
-        <option value="$PROJECT_DIR$/backend/todo/models.py" />
-        <option value="$PROJECT_DIR$/backend/backend/urls.py" />
-        <option value="$PROJECT_DIR$/backend/todo/views.py" />
-        <option value="$PROJECT_DIR$/backend/backend/settings.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/todo/serializers.py" />
-        <option value="$PROJECT_DIR$/app/todo/admin.py" />
-        <option value="$PROJECT_DIR$/app/todo/models.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="912" />
@@ -66,18 +55,6 @@
               <item name="idea" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="idea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="idea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -88,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,134 +84,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9174799d-e761-4939-bf26-eba2fae77a54" name="Default" comment="" />
-      <created>1576638397375</created>
+      <changelist id="c31939eb-6a33-423e-8375-d32656a95ee0" name="Default" comment="" />
+      <created>1577556993751</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576638397375</updated>
+      <updated>1577556993751</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22404371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/backend/urls.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/backend/backend/settings.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/models.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/views.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/backend/urls.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/backend/backend/settings.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/models.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/views.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/models.py" />
-    <entry file="file://$PROJECT_DIR$/backend/backend/urls.py" />
-    <entry file="file://$PROJECT_DIR$/backend/todo/views.py" />
-    <entry file="file://$PROJECT_DIR$/backend/backend/settings.py" />
-    <entry file="file://$PROJECT_DIR$/app/frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/backend/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/backend/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/backend/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/backend/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-983" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/todo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
