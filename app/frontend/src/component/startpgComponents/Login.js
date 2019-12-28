@@ -15,13 +15,13 @@ export default class Login extends Component {
 
   getUser = username => {
     axios
-      .get("http://localhost:8000/api/todos/$" + username + "/")
+      .get("http://localhost:8000/api/todos/" + username + "/")
       .then(res => {
            console.log("succesful get request; data: " + res.data);
            return res.data;
       })
       .catch(err => {
-        console.log(err);
+        console.log("error: " + err);
         return {};
       });
   };
@@ -29,8 +29,9 @@ export default class Login extends Component {
   login = () => {
     const username = document.getElementById("loginUser").value;
     const password = document.getElementById("loginPassword").value;
-
+    
     const user_data = this.getUser(username);
+    console.log(user_data);
     if (user_data) {
         if (user_data.username === username && user_data.password === password) {
           createBrowserHistory().push("/UserPage/" + username);

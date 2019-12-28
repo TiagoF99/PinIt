@@ -15,7 +15,7 @@ export default class UserPage extends Component {
   render() {
     return (
       <main className="content">
-        <div>Hello1 {this.curr_username} !</div>
+        <div>Hello {this.curr_username} !</div>
       </main>
     );
   }

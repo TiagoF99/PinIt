@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 export default class Register extends Component {
 
   makeItem = (username, password, name) => {
-      return {username: username, password:password, name: name};
+      return {'username': username, 'password':password, 'name': name};
   };
 
   addUser = item => {
     axios
-      .post("http://localhost:8000/api/todos/", item)
+      .post("http://localhost:8000/api/todos/", JSON.stringify(item))
       .then(res => {
           return true;
       })
@@ -28,12 +28,12 @@ export default class Register extends Component {
         alert("All values must have atleast one character")
       } else {
         const item = this.makeItem(username, password, name);
+        console.log(item);
         const check = this.addUser(item);
         if (check) {
           alert("Registration Succesful! You can now login");
-          return(<Link to="/" />);
         } else {
-          alert("Username has been taken already");
+          console.log("error");
         }
       }
   };
