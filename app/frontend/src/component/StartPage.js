@@ -14,8 +14,13 @@ export default class StartPage extends Component {
   render() {
     return (
       <main className="content">
-        <div id="logintitle"> PinIt! </div>
+        <div id="apptitle"> PinIt! </div>
         <Login />
+        <div id="description"> This is a description for the app. 
+        Trying to make it very long for the sake of it being long.
+        Hmmm. Hope I can commit soon. Words. How the fuck do I fill
+        up a whole description full of words if my brain is empty? 
+        Seems tricky. </div>
       </main>
     );
   }

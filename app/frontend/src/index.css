@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,23 +14,48 @@ body {
   background-color: white;
 }
 #loginform {
-  margin: 50px;
+  position: absolute;
+  width: 576px;
+  height: 696px;
+  left: 600px;
+  top: 263px;
+ 
 }
 #loginform > div {
   padding: 20px;
 }
 
-@font-face {
-  font-family:'Raleway', sans-serif;
-  src: "https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet";
+#apptitle {
+  position: absolute;
+  width: 387px;
+  height: 154px;
+  left: 30px;
+  top: 6px;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
 }
 #logintitle {
   text-align: center;
   font-size: 400%;
-  font-weight: 100;
+  font-weight: 600;
 }
 
-
+#description {
+position: absolute;
+width: 366px;
+height: 519px;
+left: 200px;
+top: 358px;
+font-size: 30px;
+line-height: 35px;
+color: #393232;
+border: 5px solid black;
+border-radius: 20px;
+box-sizing: border-box;
+padding: 30px;
+background: rgba(255, 255, 255, 0.85);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
