@@ -14,7 +14,7 @@ export default class StartPage extends Component {
   render() {
     return (
       <main className="content">
-        <div id="logintitle"> Pinit! </div>
+        <div id="logintitle"> PinIt! </div>
         <Login />
       </main>
     );

@@ -45,7 +45,7 @@ export default class Login extends Component {
   render() {
     return (
       <form id="loginform" className="bg-light">
-        <div id="logintitle"> Login </div>
+        <div id="logintitle"> Sign into PinIt! </div>
         <div className="form-group row">
           <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Username</label>
           <div className="col-sm-10">
@@ -66,7 +66,7 @@ export default class Login extends Component {
           </div>
         </div>
 
-        <Link to="/Register">Dont have an account? Click here to register!</Link>
+        <Link to="/Register">Dont have an account? Click here to make a new one!</Link>
       </form>
       
     );
