@@ -4,38 +4,37 @@ import { Link } from 'react-router-dom';
 
 export default class Register extends Component {
 
-  makeItem = (username, password, name) => {
-      return {username: username, password:password, name: name};
+  makeItem = (un, pwd, nm) => {
+      return {"username": un, "password": pwd, "name": nm};
   };
 
-  addUser = item => {
-    axios
-      .post("http://localhost:8000/api/todos/", item)
-      .then(res => {
-          return true;
-      })
-      .catch(err => {
-        console.log(err);
-        return false;
-      });
+  addUser = () => {
+    const username = document.getElementById("registerUser").value;
+    const password = document.getElementById("registerPassword").value;
+    const name = document.getElementById("registerName").value;
+
+    if (username.length <= 0 || password.length <= 0 || name.length <= 0) {
+      alert("All values must have atleast one character");
+    } else {
+      const item = this.makeItem(username, password, name);
+      // axios
+      //   .post("http://localhost:8000/api/todos/", item)
+      //   .then(res => this.register(res))
+      //   .catch(err => console.log(err));
+      fetch('http://localhost:8000/api/todos/', 
+        {
+          credentials: 'include',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json', },
+          body: item
+        })
+        .then(result => this.register(result))
+        .catch(error => console.log('error============:', error));
+    }
   };
 
-  register = () => {
-      const username = document.getElementById("registerUser").value;
-      const password = document.getElementById("registerPassword").value;
-      const name = document.getElementById("registerName").value;
-      if (username.length <= 0 || password.length <= 0 || name.length <= 0) {
-        alert("All values must have atleast one character")
-      } else {
-        const item = this.makeItem(username, password, name);
-        const check = this.addUser(item);
-        if (check) {
-          alert("Registration Succesful! You can now login");
-          return(<Link to="/" />);
-        } else {
-          alert("Username has been taken already");
-        }
-      }
+  register = res => {
+      console.log(res);
   };
   
   render() {
@@ -63,7 +62,7 @@ export default class Register extends Component {
           
           <div className="form-group row">
             <div className="col-sm-10">
-              <button onClick={() => this.register()} 
+              <button onClick={() => this.addUser()} 
               type="submit" className="btn btn-primary">Submit</button>
             </div>
           </div>

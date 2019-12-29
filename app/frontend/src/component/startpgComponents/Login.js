@@ -13,32 +13,32 @@ export default class Login extends Component {
       super(props);
     }
 
-  getUser = username => {
-    axios
-      .get("http://localhost:8000/api/todos/$" + username + "/")
-      .then(res => {
-           console.log("succesful get request; data: " + res.data);
-           return res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        return {};
-      });
-  };
-
-  login = () => {
+  getUser = () => {
     const username = document.getElementById("loginUser").value;
     const password = document.getElementById("loginPassword").value;
 
-    const user_data = this.getUser(username);
-    if (user_data) {
-        if (user_data.username === username && user_data.password === password) {
-          createBrowserHistory().push("/UserPage/" + username);
+    axios
+      .get("http://localhost:8000/api/todos/" + username + "/")
+      .then(res => this.login(res.data, username, password))
+      .catch(err => console.log(err.toString()));
+  };
+
+  login = (data, username, password) => {
+    if (data) {
+        if (data.username === username && data.password === password) {
+          console.log("succesful");
+          // createBrowserHistory().push("/UserPage/" + username);
+          // render() {
+          //   return(<Link to='/UserPage/{username}' />);
+          // }
+          window.open("/UserPage/" + username);
       } else {
-        alert("Username or Password do not match");
+        // alert("Username or Password do not match");
+        console.log("username/pwd dont match");
       }
     } else {
-      alert("That Username Does Not Exist In Our DataBase");
+      console.log("username doesnt exits in database/ error in request");
+      //alert("That Username Does Not Exist In Our DataBase");
     }
   }
   
@@ -61,7 +61,7 @@ export default class Login extends Component {
         
         <div className="form-group row">
           <div className="col-sm-10">
-            <button onClick={() => this.login()} 
+            <button onClick={() => this.getUser()} 
             type="submit" className="btn btn-primary">Sign in</button>
           </div>
         </div>
