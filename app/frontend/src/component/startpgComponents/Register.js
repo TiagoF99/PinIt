@@ -21,19 +21,20 @@ export default class Register extends Component {
       //   .post("http://localhost:8000/api/todos/", item)
       //   .then(res => this.register(res))
       //   .catch(err => console.log(err));
-      fetch('http://localhost:8000/api/todos/', {
-        credentials: 'include',
-        method: 'POST',
-        headers: {'Content-Type': 'application/json', },
-        body: item,
-        }).then(result => this.register(result))
-          .then(data => this.register(data))
-          .catch(error => console.log('error============:', error));
+      fetch('http://localhost:8000/api/todos/', 
+        {
+          credentials: 'include',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json', },
+          body: item
+        })
+        .then(result => this.register(result))
+        .catch(error => console.log('error============:', error));
     }
   };
 
   register = res => {
-      console.log(res.toString());
+      console.log(res);
   };
   
   render() {

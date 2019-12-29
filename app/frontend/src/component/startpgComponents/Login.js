@@ -24,11 +24,14 @@ export default class Login extends Component {
   };
 
   login = (data, username, password) => {
-    console.log(data);
     if (data) {
         if (data.username === username && data.password === password) {
           console.log("succesful");
-          createBrowserHistory().push("/UserPage/" + username);
+          // createBrowserHistory().push("/UserPage/" + username);
+          // render() {
+          //   return(<Link to='/UserPage/{username}' />);
+          // }
+          window.open("/UserPage/" + username);
       } else {
         // alert("Username or Password do not match");
         console.log("username/pwd dont match");
