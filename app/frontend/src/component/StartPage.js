@@ -15,13 +15,15 @@ export default class StartPage extends Component {
     return (
       <main className="content">
         <div id="apptitle"> PinIt! </div>
-        <img src="/image/transparent-line.png" alt="Line" />
+        <img src="/image/transparent-line.png" alt="Line" style={{width: 400, height: 85,
+        position: 'absolute', top: 130, left: 30}}/>
+        
         <Login />
         <div id="description"> This is a description for the app. 
-        Trying to make it very long for the sake of it being long.
-        Hmmm. Hope I can commit soon. Words. How the fuck do I fill
-        up a whole description full of words if my brain is empty? 
-        Seems tricky. </div>
+        This is a description for the app. This is a description
+        for the app. This is a description for the app. This is
+        a description for the app. This is a description for 
+        the app. </div>
       </main>
     );
   }
