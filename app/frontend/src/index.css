@@ -17,9 +17,10 @@ body {
   width: 576px;
   height: 696px;
   left: 600px;
-  top: 263px;
- 
+  top: 200px;
+  text-align: center;
 }
+
 #loginform > div {
   padding: 20px;
 }
@@ -31,7 +32,7 @@ body {
   left: 30px;
   top: 6px;
   font-weight: 500;
-  font-size: 144px;
+  font-size: 120px;
   line-height: 169px;
 }
 #logintitle {
@@ -61,12 +62,6 @@ background: rgba(255, 255, 255, 0.85);
   padding: 5% 5% 5% 10%;
 }
 
-#left-panels > div {
-  border: solid 1px black;
-  padding: 10px;
-  margin-top: 20px;
-  text-align: center;
-}
 #feed-main {
   padding-left: 60px;
 }
