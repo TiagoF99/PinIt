@@ -12,6 +12,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Login Page */
+
 #loginform {
   position: absolute;
   width: 576px;
@@ -23,6 +26,7 @@ body {
 
 #loginform > div {
   padding: 20px;
+  
 }
 
 #apptitle {
@@ -35,6 +39,7 @@ body {
   font-size: 120px;
   line-height: 169px;
 }
+
 #logintitle {
   text-align: center;
   font-size: 400%;
@@ -42,20 +47,25 @@ body {
 }
 
 #description {
-position: absolute;
-width: 366px;
-height: 519px;
-left: 200px;
-top: 358px;
-font-size: 30px;
-line-height: 35px;
-color: #393232;
-border: 5px solid black;
-border-radius: 20px;
-box-sizing: border-box;
-padding: 30px;
-background: rgba(255, 255, 255, 0.85);
+  position: absolute;
+  width: 366px;
+  height: 519px;
+  left: 200px;
+  top: 358px;
+  font-size: 30px;
+  line-height: 35px;
+  color: #393232;
+  border: 5px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
 }
+<<<<<<< Updated upstream
+=======
+
+/* User Page */
+>>>>>>> Stashed changes
 
 
 /*UserPage */
