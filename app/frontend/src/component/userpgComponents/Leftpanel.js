@@ -20,7 +20,8 @@ export default class Leftpanel extends Component {
       this.phrase = "evening";
     }
 
-    // style="width: 18rem;"
+    var friend_link = "/UserPage/Friends/" + this.curr_username;
+    var notif_link = "/UserPage/Notifications/" + this.curr_username;
     return (
       <div className="container-fluid">
         <div className="row" id="left-panels">
@@ -28,21 +29,20 @@ export default class Leftpanel extends Component {
             <div className="card" >
               <img src="/image/icon.png" className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <Link to="/" className="btn btn-primary">Go somewhere</Link>
+                <h5 className="card-title">Good {this.phrase} {this.curr_username}!</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <Link to="/" className="btn btn-primary">Account Details</Link>
               </div>
             </div>
           </div>
-          <div className="col-12" id="feed-main">
+          <div className="col-12" id="quick-settings">
             <div className="card">
               <div className="card-header">
                 Quick Settings
               </div>
-              <ul class="list-group list-group-flush">
-                <li className = "list-group-item">Notifications</li>
-                <li className = "list-group-item">Friends</li>
-                <li className = "list-group-item">Other</li>
+              <ul className="list-group list-group-flush">
+                <Link to={friend_link} id="li-link"><li className="list-group-item">Friends</li></Link>
+                <Link to={notif_link} id="li-link"><li className="list-group-item">Notifications</li></Link>
               </ul>
             </div>
           </div>
