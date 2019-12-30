@@ -56,8 +56,9 @@ box-sizing: border-box;
 padding: 30px;
 background: rgba(255, 255, 255, 0.85);
 }
-/*UserPage */
 
+
+/*UserPage */
 #user-main {
   padding: 5% 5% 5% 10%;
 }
@@ -66,6 +67,29 @@ background: rgba(255, 255, 255, 0.85);
   padding-left: 60px;
 }
 
+/* LeftPanel */
+.card {
+  width: 18rem;
+}
+#quick-settings {
+  margin-top: 20px;
+}
+.list-group-item {
+  text-decoration: none;
+  color: black;
+}
+.list-group-item:hover {
+  background-color: rgba(0,0,0,.03);
+  text-decoration: none;
+}
+#li-link {
+  border-bottom: .5px solid #bfb8b88f;
+}
+#li-link:hover {
+  text-decoration: none;
+  border-bottom: .02px solid #bfb8b88f;
+}
+/* Other */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

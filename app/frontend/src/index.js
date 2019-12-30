@@ -16,6 +16,8 @@ import StartPage from './component/StartPage.js';
 import UserPage from './component/UserPage.js';
 import Login from './component/startpgComponents/Login.js';
 import Register from './component/startpgComponents/Register.js';
+import Friends from './component/Friends.js';
+import Notifications from './component/Notifications.js';
 
 const history = createBrowserHistory();
 
@@ -26,6 +28,8 @@ ReactDOM.render(
 			<Route exact path="/" component={App} />
 			<Route exact path="/Register" component={Register} />
 			<Route exact path="/UserPage/:curr_username" component={UserPage} />
+			<Route exact path="/UserPage/Notifications/:curr_username" component={Notifications} />
+			<Route exact path="/UserPage/Friends/:curr_username" component={Friends} />
 			//<Redirect from='/UserPage/' to="/"/>
 		</Switch>
 	</Router>
