@@ -15,20 +15,6 @@ body {
 
 /* Login Page */
 
-#loginform {
-  position: absolute;
-  width: 576px;
-  height: 696px;
-  left: 600px;
-  top: 200px;
-  text-align: center;
-}
-
-#loginform > div {
-  padding: 20px;
-  
-}
-
 #apptitle {
   position: absolute;
   width: 387px;
@@ -42,8 +28,21 @@ body {
 
 #logintitle {
   text-align: center;
-  font-size: 400%;
+  font-size: 300%;
   font-weight: 600;
+}
+
+#loginform {
+  position: absolute;
+  width: 450px;
+  height: 420px;
+  left: 600px;
+  top: 200px;
+  text-align: center;
+}
+
+#loginform > div {
+  padding: 20px; 
 }
 
 #description {

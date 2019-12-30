@@ -66,7 +66,7 @@ export default class Login extends Component {
           </div>
         </div>
 
-        <Link to="/Register">Dont have an account? Click here to make a new one!</Link>
+        <Link to="/Register" style={{color: "red"}}>Dont have an account? Click here to make a new one!</Link>
       </form>
       
     );
