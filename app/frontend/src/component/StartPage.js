@@ -15,8 +15,8 @@ export default class StartPage extends Component {
     return (
       <main className="content">
         <div id="apptitle"> PinIt! </div>
-        <img src="/image/transparent-line.png" alt="Line" style={{width: 400, height: 85,
-        position: 'absolute', top: 130, left: 30}}/>
+        <img src="/image/transparent-line.png" alt="Line" style={{width: 310, height: 60,
+        position: 'absolute', top: 123, left: 50}}/>
         
         <Login />
         <div id="description"> This is a description for the app. 
