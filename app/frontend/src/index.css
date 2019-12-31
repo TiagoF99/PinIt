@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Login Page */
+/* LoginPage */
 
 #apptitle {
   position: absolute;
@@ -28,30 +28,32 @@ body {
 
 #logintitle {
   text-align: center;
-  font-size: 300%;
+  font-size: 220%;
   font-weight: 600;
+  top: 30px;
 }
 
 #loginform {
   position: absolute;
-  width: 450px;
+  width: 350px;
   height: 420px;
   left: 600px;
-  top: 200px;
+  top: 170px;
   text-align: center;
+  background-image: url("/image/transparent-board.png");
 }
 
 #loginform > div {
-  padding: 20px; 
+  padding: 20px;
 }
 
 #description {
   position: absolute;
-  width: 310px;
+  width: 300px;
   height: 350px;
-  left: 200px;
-  top: 230px;
-  font-size: 20px;
+  left: 250px;
+  top: 210px;
+  font-size: 18px;
   line-height: 35px;
   color: #393232;
   border: 3px solid black;
@@ -61,7 +63,7 @@ body {
   background: rgba(255, 255, 255, 0.85);
 }
 
-/* User Page */
+/* UserPage */
 
 #user-main {
   padding: 5% 5% 5% 10%;
@@ -95,6 +97,7 @@ body {
   border-bottom: .02px solid #bfb8b88f;
 }
 /* Other */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

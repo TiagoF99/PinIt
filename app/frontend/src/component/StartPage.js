@@ -23,7 +23,7 @@ export default class StartPage extends Component {
         This is a description for the app. This is a description
         for the app. This is a description for the app. This is
         a description for the app. This is a description for 
-        the app. </div>
+        the app. Description. Description. </div>
       </main>
     );
   }
