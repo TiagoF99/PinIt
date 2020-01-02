@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .serializers import TodoSerializer
-from .models import Todo
+from .serializers import UserSerializer, BoardSerializer
+from .models import User, Board
 from django.http import HttpResponse
 from django.views.generic import View
 from django.views.decorators.csrf import csrf_exempt
@@ -11,9 +11,14 @@ import urllib.request
 import os
 
 # Create your views here.
-class TodoView(viewsets.ModelViewSet):
-    serializer_class = TodoSerializer
-    queryset = Todo.objects.all()
+class UserView(viewsets.ModelViewSet):
+    serializer_class = UserSerializer
+    queryset = User.objects.all()
+
+# Create your views here.
+class BoardView(viewsets.ModelViewSet):
+    serializer_class = BoardSerializer
+    queryset = Board.objects.all()
 
 class FrontendAppView(View):
     """

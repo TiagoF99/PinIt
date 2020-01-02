@@ -21,7 +21,7 @@ export default class Register extends Component {
       //   .post("http://localhost:8000/api/todos/", item)
       //   .then(res => this.register(res))
       //   .catch(err => console.log(err));
-      fetch('http://localhost:8000/api/todos/', 
+      fetch('http://localhost:8000/api/users/', 
         {
           credentials: 'include',
           method: 'POST',

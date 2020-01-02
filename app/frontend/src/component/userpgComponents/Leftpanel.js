@@ -8,18 +8,20 @@ export default class Leftpanel extends Component {
     this.curr_username = this.props.curr_username;
   }
 
-  render() {
-
+  get_curr_date = () => {
     var today = new Date();
     var hour = today.getHours();
     if (hour >= 0 && hour < 12) {
-      this.phrase = "morning";
+      return "morning";
     } else if (hour >= 12 && hour < 18) {
-      this.phrase = "afternoon";
+      return "afternoon";
     } else {
-      this.phrase = "evening";
+      return "evening";
     }
+  }
 
+  render() {
+    this.phrase = this.get_curr_date();
     var friend_link = "/UserPage/Friends/" + this.curr_username;
     var notif_link = "/UserPage/Notifications/" + this.curr_username;
     return (

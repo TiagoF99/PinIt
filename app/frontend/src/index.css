@@ -40,6 +40,7 @@ body {
   left: 600px;
   top: 170px;
   text-align: center;
+  /* make it url("http://localhost:8000/static/image/transparent-board.png") to work in production*/
   background-image: url("/image/transparent-board.png");
 }
 

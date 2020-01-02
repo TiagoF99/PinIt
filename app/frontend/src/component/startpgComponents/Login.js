@@ -18,7 +18,7 @@ export default class Login extends Component {
     const password = document.getElementById("loginPassword").value;
 
     axios
-      .get("http://localhost:8000/api/todos/" + username + "/")
+      .get("http://localhost:8000/api/users/" + username + "/")
       .then(res => this.login(res.data, username, password))
       .catch(err => console.log(err.toString()));
   };
