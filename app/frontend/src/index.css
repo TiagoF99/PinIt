@@ -40,8 +40,9 @@ body {
   left: 600px;
   top: 170px;
   text-align: center;
-  /* make it url("http://localhost:8000/static/image/transparent-board.png") to work in production*/
   background-image: url("/image/transparent-board.png");
+  /* this one is for when its in production (python manage.py runserver)*/
+  background-image: url("http://localhost:8000/static/image/transparent-board.png");
 }
 
 #loginform > div {
@@ -67,7 +68,7 @@ body {
 /* UserPage */
 
 #user-main {
-  padding: 5% 5% 5% 10%;
+  padding: 2% 5% 5% 10%;
 }
 
 #feed-main {
@@ -97,8 +98,16 @@ body {
   text-decoration: none;
   border-bottom: .02px solid #bfb8b88f;
 }
-/* Other */
 
+/* FEED */
+#jumbo-cont {
+  padding: 2rem 1rem;
+}
+
+
+
+
+/* Other */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default class Register extends Component {
 
   makeItem = (un, pwd, nm) => {
-      return {"username": un, "password": pwd, "name": nm};
+      return {username: un, password: pwd, name: nm};
   };
 
   addUser = () => {

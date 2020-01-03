@@ -13,14 +13,24 @@ export default class Login extends Component {
       super(props);
     }
 
-  getUser = () => {
+  async getUser() {
     const username = document.getElementById("loginUser").value;
     const password = document.getElementById("loginPassword").value;
 
-    axios
-      .get("http://localhost:8000/api/users/" + username + "/")
-      .then(res => this.login(res.data, username, password))
-      .catch(err => console.log(err.toString()));
+    try {
+        const response = await fetch("http://localhost:8000/api/users/" + username + "/");
+        if (!response.ok) {
+          throw Error(response.statusText);
+        }
+        const json = await response.json();
+        this.login(json, username, password);
+    } catch (error) {console.log(error);}
+
+
+    // axios
+    //   .get("http://localhost:8000/api/users/" + username + "/")
+    //   .then(res => this.login(res.data, username, password))
+    //   .catch(err => console.log(err.toString()));
   };
 
   login = (data, username, password) => {
